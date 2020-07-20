@@ -1,14 +1,11 @@
 #intro-main {
     background-image: url("/img/Fullsize-Bg-img.png");
-    background-repeat: none;
-    background-size: contain;
-    background-position: center;
     overflow: hidden;
-    min-height: 60vh;
     color: white;
     text-align: center;
-    padding: 25px;
-    padding-top: 200px;
+   background-size: cover;
+   min-height: 100vh;
+   padding-top: 200px;
 }
 .hdr-txt {
     font-size: 7.5em;
@@ -17,7 +14,9 @@
 .sub-hdr-txt {
     font-size: 2.5em;
 }
-#djLogo {
-    right: 0;
-    bottom: 0;
+.spec-sec {
+    min-height: 500px;
+}
+#cont-sec {
+    padding: 100px;
 }
